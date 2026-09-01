@@ -4,6 +4,7 @@ import obfuscator from 'vite-plugin-javascript-obfuscator'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/FCR/',
   plugins: [
     react(),
     obfuscator({
